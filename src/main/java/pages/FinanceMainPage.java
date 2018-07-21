@@ -50,7 +50,7 @@ public class FinanceMainPage {
 
     public String getBYNCurrencyInputBoxValue() {
         bynCurrencyInputBox.waitForElementToBeVisible(2);
-        return bynCurrencyInputBox.getText().trim();
+        return bynCurrencyInputBox.getValue();
     }
 
     public String getUSDCurrencyInputBoxValue() {

@@ -50,6 +50,15 @@ public abstract class Element extends ConfigurationManager{
         return null;
     }
 
+    public String getValue(){
+        try{
+            return findWebElement().getAttribute("value").trim();
+        }catch (Exception e){
+            logger.error("Cant get text from the element " + findWebElement(), e);
+        }
+        return null;
+    }
+
     public boolean isDisplayed(){
         try{
             return findWebElement().isDisplayed();
