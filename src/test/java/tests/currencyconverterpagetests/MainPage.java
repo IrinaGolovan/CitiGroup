@@ -2,20 +2,13 @@ package tests.currencyconverterpagetests;
 
 import data.CurrencyData;
 import data.configInformation.BasePage;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import pages.FinanceMainPage;
 import steps.FinanceMainPageSteps;
 import steps.MainPageSteps;
 import utils.StringUtils;
-import webcomponents.*;
 import webcomponents.Label;
-
-import java.awt.*;
-import java.util.*;
 import java.util.List;
-
 
 public class MainPage extends BasePage {
 

@@ -4,9 +4,6 @@ import org.apache.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-/**
- * Created by oleksandr on 25.02.2018.
- */
 public class BasePage extends ConfigurationManager {
     private static final Logger logger = Logger.getLogger(BasePage.class);
     private String browser = "chrome";

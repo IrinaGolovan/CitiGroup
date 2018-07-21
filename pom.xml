@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ua.com.rozetka</groupId>
-    <artifactId>Rozetka</artifactId>
+    <groupId>ua.com.citi</groupId>
+    <artifactId>Citi</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.9.1</version>
+            <version>3.11.0</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -28,4 +28,5 @@
 
 
     </dependencies>
+
 </project>

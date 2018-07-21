@@ -5,9 +5,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * Created by oleksandr on 09.03.2018.
- */
 public class StringUtils {
 
     public static String generateEmail(String email, String domain){

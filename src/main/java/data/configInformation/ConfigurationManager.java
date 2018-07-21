@@ -7,10 +7,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-
-/**
- * Created by oleksandr on 17.02.2018.
- */
 public class ConfigurationManager {
 
     private static WebDriver driver;

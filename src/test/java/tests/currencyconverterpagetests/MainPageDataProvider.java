@@ -3,8 +3,6 @@ package tests.currencyconverterpagetests;
 import data.CurrencyData;
 import data.TestsData;
 import org.testng.annotations.DataProvider;
-import utils.StringUtils;
-
 
 public class MainPageDataProvider extends TestsData{
 
